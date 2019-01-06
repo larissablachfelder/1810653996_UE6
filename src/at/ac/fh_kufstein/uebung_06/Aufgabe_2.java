@@ -22,6 +22,7 @@ public class Aufgabe_2
         }
 
         for(int i = array.length-1; i >= 0; i--) //umgekehrte Reihenfolge: beginne beim höchsten platz und gehe bis 0
+            //-1 da index bei 0 zählen beginnt und die länge aber bei 1
         {
             System.out.println(array[i]); //warum -1?
         }

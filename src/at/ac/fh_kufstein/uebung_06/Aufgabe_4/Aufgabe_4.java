@@ -1,4 +1,4 @@
-package at.ac.fh_kufstein.uebung_06.aufgabe4;
+package at.ac.fh_kufstein.uebung_06.Aufgabe_4;
 
 import javax.swing.*;
 import java.util.ArrayList;

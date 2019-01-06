@@ -1,10 +1,10 @@
-package at.ac.fh_kufstein.uebung_06.aufgabe4;
+package at.ac.fh_kufstein.uebung_06.Aufgabe_4;
 
 public class Freunde
 {
     private String name;
 
-    public Freunde(String name)
+    public Freunde(String name) //Konstruktor
     {
         this.name = name;
     }

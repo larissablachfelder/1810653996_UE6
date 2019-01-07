@@ -5,6 +5,7 @@ import java.util.Random;
 
 public class Aufgabe_3
 {
+
     public static void main(String[] args)
     {
         int[] array = new int[100];
@@ -24,10 +25,9 @@ public class Aufgabe_3
         for (int i = 0; i < array.length; i++)
         {
             System.out.println(array[i]);
-
         }*/
 
-        while(true) //solange das zutrifft, trifft etwas anderes zu passiert nichts
+        while(true) //solange das zutrifft --> gibt man keine zahl ein stürzt das programm ab
         {
 
             int position = Integer.parseInt(JOptionPane.showInputDialog("Bitte gib die Stelle an, an der du die Zahl ändern möchtest: "));
@@ -41,4 +41,10 @@ public class Aufgabe_3
 
 
     }
+
+
+
+
+
+
 }
